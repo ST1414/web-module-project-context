@@ -17,7 +17,7 @@ function App() {
 		// add the given item to the cart
 		setCart([...cart, item]);
 	};
-	console.log('App: ', cart)
+	
 	return (
 		<div className="App">
 			<ProductContext.Provider value={{products, addItem}}>
